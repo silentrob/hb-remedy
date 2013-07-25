@@ -36,14 +36,16 @@ button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 textarea{overflow:auto;vertical-align:top;}
 table{border-collapse:collapse;border-spacing:0;}
 ul,ol{margin:0;padding:0;}
+::-moz-selection{background:#a9c7d5;}
+::selection{background:#a9c7d5;}
 .wf-loading{visibility:hidden;}
 .wf-active,.wf-inactive{visibility:visible;}
-html,body{font-family:"jaf-bernino-sans";background:#e0e0e0;color:#444444;margin:0;}
+html,body{font-family:"jaf-bernino-sans","AvenirNext-Medium",Verdana,Segoe,sans-serif;background:#e0e0e0;color:#444444;margin:0;-moz-font-feature-settings:"onum=1,pnum=1,kern=false,liga=1";-webkit-font-feature-settings:"onum" 1,"pnum" 1,"kern" false,"liga" 1;-moz-font-feature-settings:"onum" 1,"pnum" 1,"kern" false,"liga" 1;-o-font-feature-settings:"onum" 1,"pnum" 1,"kern" false,"liga" 1;font-feature-settings:"onum" 1,"pnum" 1,"kern" false,"liga" 1;font-variant:normal;}
 a,a:visited{text-decoration:none;color:#46788f;}a:hover,a:visited:hover,a:focus,a:visited:focus{color:#5a94ae;}
 a:active,a:visited:active{color:#355b6d;}
-.container{font-size:1.25rem;line-height:1.4;margin:1.4em auto 4em auto;padding:0 1.6em;transition:max-width 0.5s;max-width:28em;}@media screen and (min-width:55em){.container{max-width:36em;}}
-header,h1,h2,h3,h4,h5{font-family:"jaf-bernina-sans-condensed";}
-h1:first-of-type{top:0;color:#eaeaea;position:absolute;text-shadow:0 0 0.3em rgba(0, 0, 0, 0.25);font-size:4rem;display:block;line-height:0.95;text-transform:uppercase;margin-right:2rem;}@media screen and (min-width:29em){h1:first-of-type{font-size:4.75rem;}}@media screen and (min-width:35em){h1:first-of-type{font-size:6rem;top:0.5em;}}@media screen and (min-width:43em){h1:first-of-type{font-size:7rem;top:0.5em;}}@media screen and (min-width:55em){h1:first-of-type{max-width:6.428571429em;}}@media screen and (min-width:70em){h1:first-of-type{font-size:8rem;top:0em;max-width:5.625em;}}h1:first-of-type+p:first-of-type{font-size:1.5rem;line-height:1.3;}
+.container{font-size:0.8rem;max-width:28em;}@media screen and (min-width:23em){.container{font-size:1.25rem;line-height:1.4;margin:1.4em auto 4em auto;padding:0 1.6em;transition:max-width 0.5s;}}@media screen and (min-width:55em){.container{max-width:36em;}}
+header,h1,h2,h3,h4,h5{font-family:"jaf-bernina-sans-condensed","AvenirNextCondensed-Bold","Futura-CondensedExtraBold",Futura,"Century Gothic",CenturyGothic,AppleGothic,Verdana,sans-serif;}
+h1:first-of-type{top:0;color:#eaeaea;position:absolute;text-shadow:0 0 0.33em rgba(0, 0, 0, 0.5);font-size:2rem;display:block;line-height:0.95;text-transform:uppercase;margin-right:2rem;}@media screen and (min-width:23em){h1:first-of-type{font-size:3.5rem;}}@media screen and (min-width:29em){h1:first-of-type{font-size:4.75rem;border:none;}}@media screen and (min-width:35em){h1:first-of-type{font-size:5.5rem;top:0.5em;}}@media screen and (min-width:43em){h1:first-of-type{font-size:7rem;top:0.5em;}}@media screen and (min-width:55em){h1:first-of-type{max-width:6.428571429em;}}@media screen and (min-width:70em){h1:first-of-type{font-size:8rem;top:0em;max-width:5.625em;}}h1:first-of-type+p:first-of-type{font-size:1.5rem;line-height:1.3;}
 .opening{width:100%;max-height:30em;overflow:hidden;z-index:-1;border-bottom:2px solid white;margin:0;padding:0;}
-.opening-image{width:100%;margin:0;margin-bottom:-0.33em;padding:0;}@media screen and (min-width:55em){.opening-image{margin:0;border-bottom:0;display:block;position:relative;-webkit-transform:translateY(-7em);-moz-transform:translateY(-7em);-ms-transform:translateY(-7em);-o-transform:translateY(-7em);transform:translateY(-7em);}}@media screen and (min-width:70em){.opening-image{-webkit-transform:translateY(-17em);-moz-transform:translateY(-17em);-ms-transform:translateY(-17em);-o-transform:translateY(-17em);transform:translateY(-17em);}}
+.opening-image{width:100%;margin:0;margin-bottom:-0.33em;padding:0;opacity:0.8;}@media screen and (min-width:55em){.opening-image{margin:0;border-bottom:0;display:block;position:relative;-webkit-transform:translateY(-7em);-ms-transform:translateY(-7em);transform:translateY(-7em);}}@media screen and (min-width:70em){.opening-image{-webkit-transform:translateY(-17em);-ms-transform:translateY(-17em);transform:translateY(-17em);}}
 footer{margin-top:5em;color:#888;font-size:0.9rem;text-align:center;}
